@@ -1,13 +1,6 @@
 # OpenShift Actions Runner Installer
 
-[![Install into repository](https://github.com/redhat-actions/openshift-actions-runner-installer/workflows/Install%20into%20repository/badge.svg)](https://github.com/redhat-actions/openshift-actions-runner-installer/actions)
-[![Install into org](https://github.com/redhat-actions/openshift-actions-runner-installer/workflows/Install%20into%20redhat-actions/badge.svg)](https://github.com/redhat-actions/openshift-actions-runner-installer/actions)
-[![CI checks](https://github.com/redhat-actions/openshift-actions-runner-installer/workflows/CI%20Checks/badge.svg)](https://github.com/redhat-actions/openshift-actions-runner-installer/actions)
-[![Link checker](https://github.com/redhat-actions/openshift-actions-runner-installer/workflows/Link%20checker/badge.svg)](https://github.com/redhat-actions/openshift-actions-runner-installer/actions)
-
-[![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://github.com/jonico/awesome-runners)
-[![tag badge](https://img.shields.io/github/v/tag/redhat-actions/openshift-actions-runner-installer)](https://github.com/redhat-actions/openshift-actions-runner-installer/tags)
-[![license badge](https://img.shields.io/github/license/redhat-actions/kn-service-deploy)](./LICENSE)
+This is a fork of the [**Red Hat OpenShift Actions Runner**](https://github.com/redhat-actions/openshift-actions-runner-installer) that points to the IBM Cloud Native Toolkit chart to enable client VPN sessions in the deployed runner.
 
 The OpenShift Self-Hosted Actions Runner Installer is a GitHub Action to automatically install self-hosted Actions runner containers into a Kubernetes cluster.
 
