@@ -7,9 +7,9 @@ namespace Constants {
     export const DEFAULT_IMG = "quay.io/redhat-github-actions/runner";
     export const DEFAULT_IMG_TAG = "v1";
 
-    export const CHART_REPO_NAME = "openshift-actions-runner-chart";
+    export const CHART_REPO_NAME = "action-runner-chart";
     export const CHART_NAME = "actions-runner";
-    export const CHART_REPO_URL = `https://redhat-actions.github.io/openshift-actions-runner-chart/`;
+    export const CHART_REPO_URL = `https://cloud-native-toolkit.github.io/action-runner-chart/`;
     export const RELEASE_NAME_LABEL = "app.kubernetes.io/instance";
 }
 
